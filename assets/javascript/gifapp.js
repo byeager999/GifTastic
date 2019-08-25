@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   var animals = ["dog", "cat", "bunny"];
 
-  var queryURL = "https://api.giphy.com/v1/?" + animal + "&api=XMgsyApvzodfXII91w9pzzqX9RNA9vYG"
+  var queryURL = "https://api.giphy.com/v1/?" + animal + "&api_key=XMgsyApvzodfXII91w9pzzqX9RNA9vYG"
 
 // function to add the buttons to the screen
   function renderButtons() {
